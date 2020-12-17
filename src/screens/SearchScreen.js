@@ -27,7 +27,6 @@ const SearchScreen = () => {
             <ResultsList results={filterResultsByPrice('$')} title="Cost Effective" />
             <ResultsList results={filterResultsByPrice('$$')} title="A Bit Pricier" />
             <ResultsList results={filterResultsByPrice('$$$')} title="Hey Big Spender" />
-            {/* <ResultsList results={filterResultsByPrice('$$$$')} title="Big Bucks" /> */}
         </View>
     );
 };

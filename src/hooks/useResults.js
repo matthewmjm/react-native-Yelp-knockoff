@@ -27,7 +27,7 @@ export default () => {
     // instead, use the useEffect hook with an empty array as second argument
     
     useEffect(() => {
-        searchApi('pasta');
+        searchApi('american');
     }, []);
 
     return [searchApi, results, errorMessage];
